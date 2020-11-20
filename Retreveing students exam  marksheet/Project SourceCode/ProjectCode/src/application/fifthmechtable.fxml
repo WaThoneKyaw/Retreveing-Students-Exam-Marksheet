@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="583.0" prefWidth="802.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView layoutX="92.0" layoutY="59.0" prefHeight="191.0" prefWidth="601.0">
+        <columns>
+          <TableColumn fx:id="mechro5" prefWidth="75.0" text="C1" />
+          <TableColumn fx:id="mechname5" prefWidth="75.0" text="C2" />
+            <TableColumn fx:id="mechem1" prefWidth="75.0" text="Column X" />
+            <TableColumn fx:id="mechice" prefWidth="75.0" text="Column X" />
+            <TableColumn fx:id="mechrac" prefWidth="75.0" text="Column X" />
+            <TableColumn fx:id="mechvc" prefWidth="75.0" text="Column X" />
+            <TableColumn fx:id="mechfm1" prefWidth="75.0" text="Column X" />
+            <TableColumn fx:id="mechgtt" prefWidth="75.0" text="Column X" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

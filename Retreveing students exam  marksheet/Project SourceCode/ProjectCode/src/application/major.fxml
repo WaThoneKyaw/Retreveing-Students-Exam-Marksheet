@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <AnchorPane layoutX="-5.0" layoutY="-8.0" prefHeight="452.0" prefWidth="394.0" style="-fx-background-color: GRAY;">
+         <children>
+            <Label alignment="CENTER" layoutX="95.0" layoutY="29.0" prefHeight="55.0" prefWidth="184.0" style="-fx-background-color: #cc3333;" text="2017-2018&#10;Academic Year" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="cbutton" layoutX="46.0" layoutY="120.0" mnemonicParsing="false" onAction="#openCivil" prefHeight="42.0" prefWidth="99.0" style="-fx-background-color: #bfc0c7;" text="Civil" textFill="#d30d0d">
+               <font>
+                  <Font name="Times New Roman Bold" size="14.0" />
+               </font></Button>
+            <Button fx:id="epbutton" layoutX="46.0" layoutY="178.0" mnemonicParsing="false" onAction="#openEP" prefHeight="42.0" prefWidth="99.0" style="-fx-background-color: #bfc0c7;" text="EP" textFill="#d30d0d">
+               <font>
+                  <Font name="Times New Roman Bold" size="14.0" />
+               </font></Button>
+            <Button fx:id="ecbutton" layoutX="46.0" layoutY="238.0" mnemonicParsing="false" onAction="#openEC" prefHeight="42.0" prefWidth="99.0" style="-fx-background-color: #bfc0c7;" text="EC" textFill="#d30d0d">
+               <font>
+                  <Font name="Times New Roman Bold" size="14.0" />
+               </font></Button>
+            <Button fx:id="mbutton" layoutX="46.0" layoutY="296.0" mnemonicParsing="false" onAction="#openMech" prefHeight="42.0" prefWidth="99.0" style="-fx-background-color: #bfc0c7;" text="Mech" textFill="#d30d0d">
+               <font>
+                  <Font name="Times New Roman Bold" size="14.0" />
+               </font></Button>
+            <Button fx:id="ibutton" layoutX="46.0" layoutY="350.0" mnemonicParsing="false" onAction="#openIT" prefHeight="42.0" prefWidth="99.0" style="-fx-background-color: #bfc0c7;" text="IT" textFill="#d30d0d">
+               <font>
+                  <Font name="Times New Roman Bold" size="14.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

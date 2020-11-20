@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="653.0" prefWidth="984.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <TableView fx:id="fourthittable" layoutX="-2.0" layoutY="12.0" prefHeight="629.0" prefWidth="969.0">
+         <columns>
+            <TableColumn fx:id="itro4" prefWidth="105.0" text="Roll&#10;Number" />
+            <TableColumn fx:id="itname4" prefWidth="105.0" text="Name" />
+            <TableColumn fx:id="iteng4" prefWidth="104.0" text="English" />
+            <TableColumn fx:id="itmath4" prefWidth="105.0" text="Engineering&#10;Mathematics" />
+            <TableColumn fx:id="itacn" prefWidth="131.0" text="Advanced&#10;Computer&#10;Networks" />
+            <TableColumn fx:id="itcao" prefWidth="107.0" text="Computer&#10;Architecture&#10;and Organization" />
+            <TableColumn fx:id="itos" prefWidth="99.0" text="Operating&#10;Systems" />
+            <TableColumn fx:id="itadbms" prefWidth="122.0" text="Advanced Data&#10;Management&#10;Techniques" />
+            <TableColumn fx:id="itmcs" prefWidth="90.0" text="Modern&#10;Control&#10;Systems" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

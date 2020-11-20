@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="583.0" prefWidth="802.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <TableView layoutX="92.0" layoutY="59.0" prefHeight="191.0" prefWidth="687.0">
+        <columns>
+          <TableColumn fx:id="ecr01" prefWidth="75.0" text="C1" />
+          <TableColumn fx:id="ecname1" prefWidth="75.0" text="C2" />
+            <TableColumn fx:id="ecmyan" prefWidth="75.0" text="Column X" />
+            <TableColumn fx:id="eceng1" prefWidth="75.0" text="Column X" />
+            <TableColumn fx:id="ecmath1" prefWidth="75.0" text="Column X" />
+            <TableColumn fx:id="ecchem" prefWidth="75.0" text="Column X" />
+            <TableColumn fx:id="ecphy" prefWidth="75.0" text="Column X" />
+            <TableColumn fx:id="fec" prefWidth="75.0" text="Column X" />
+            <TableColumn fx:id="ecdrawing" prefWidth="75.0" text="Column X" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

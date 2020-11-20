@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <AnchorPane layoutX="1.0" prefHeight="488.0" prefWidth="394.0" style="-fx-background-color: gray;">
+         <children>
+            <Label alignment="CENTER" layoutX="117.0" layoutY="30.0" prefHeight="50.0" prefWidth="183.0" style="-fx-background-color: #171c54;" text="2017-2018&#10;Academic Year" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="cbutton" disable="true" layoutX="46.0" layoutY="120.0" mnemonicParsing="false" onAction="#openCivil" prefHeight="42.0" prefWidth="99.0" style="-fx-background-color: #555555;" text="Civil" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="14.0" />
+               </font></Button>
+            <Button fx:id="epbutton" disable="true" layoutX="46.0" layoutY="178.0" mnemonicParsing="false" onAction="#openEP" prefHeight="42.0" prefWidth="99.0" style="-fx-background-color: #555555;" text="EP" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="14.0" />
+               </font></Button>
+            <Button fx:id="ecbutton" disable="true" layoutX="46.0" layoutY="238.0" mnemonicParsing="false" onAction="#openEC" prefHeight="42.0" prefWidth="99.0" style="-fx-background-color: #555555;" text="EC" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="14.0" />
+               </font></Button>
+            <Button fx:id="mbutton" layoutX="46.0" layoutY="296.0" mnemonicParsing="false" onAction="#openMech" prefHeight="42.0" prefWidth="99.0" style="-fx-background-color: #444444;" text="Mech" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="14.0" />
+               </font></Button>
+            <Button fx:id="ibutton" disable="true" layoutX="46.0" layoutY="350.0" mnemonicParsing="false" onAction="#openIT" prefHeight="42.0" prefWidth="99.0" style="-fx-background-color: #555555;" text="IT" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="14.0" />
+               </font></Button>
+            <Button fx:id="firstmechbtn" layoutX="206.0" layoutY="120.0" mnemonicParsing="false" onAction="#firstmech" prefHeight="42.0" prefWidth="163.0" style="-fx-background-color: #555555;" text="First year" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="14.0" />
+               </font></Button>
+            <Button fx:id="thirdmechbtn" layoutX="207.0" layoutY="217.0" mnemonicParsing="false" onAction="#thirdmech" prefHeight="42.0" prefWidth="163.0" style="-fx-background-color: #555555;" text="Third year" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="14.0" />
+               </font></Button>
+            <Button fx:id="fourthmechbtn" layoutX="207.0" layoutY="267.0" mnemonicParsing="false" onAction="#fourthmech" prefHeight="42.0" prefWidth="163.0" style="-fx-background-color: #555555;" text="Fourth year" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="14.0" />
+               </font></Button>
+            <Button fx:id="secondmechbtn" layoutX="207.0" layoutY="169.0" mnemonicParsing="false" onAction="#secondmech" prefHeight="42.0" prefWidth="163.0" style="-fx-background-color: #555555;" text="Second year" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="14.0" />
+               </font></Button>
+            <Button fx:id="fifthmechbtn" layoutX="208.0" layoutY="314.0" mnemonicParsing="false" onAction="#fifthmech" prefHeight="42.0" prefWidth="163.0" style="-fx-background-color: #555555;" text="Fifth year" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="14.0" />
+               </font></Button>
+            <Button fx:id="sixthmechbtn" layoutX="208.0" layoutY="360.0" mnemonicParsing="false" onAction="#sixthmech" prefHeight="42.0" prefWidth="163.0" style="-fx-background-color: #555555;" text="Sixth year" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="14.0" />
+               </font></Button>
+            <Button fx:id="back" layoutX="53.0" layoutY="432.0" mnemonicParsing="false" onAction="#back" prefHeight="31.0" prefWidth="72.0" style="-fx-background-color: #171c54;" text="Back" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="14.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

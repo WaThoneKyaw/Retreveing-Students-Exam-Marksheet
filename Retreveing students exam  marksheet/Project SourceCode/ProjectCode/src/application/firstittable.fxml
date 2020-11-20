@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="691.0" prefWidth="933.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <TableView fx:id="firstittable" layoutX="26.0" layoutY="22.0" prefHeight="428.0" prefWidth="903.0">
+        <columns>
+        <TableColumn fx:id="itro1" prefWidth="89.0" text="Roll Number" />
+          <TableColumn fx:id="itname1" prefWidth="143.0" text="Name" />
+            <TableColumn fx:id="itmyan1" prefWidth="81.0" text="Myanmar" />
+            <TableColumn fx:id="iteng1" prefWidth="90.0" text="English" />
+            <TableColumn fx:id="itmath1" prefWidth="103.0" text="Engineering&#10;Mathematics" />
+            <TableColumn fx:id="itchem1" prefWidth="107.0" text="Engineering &#10;Chemistry" />
+            <TableColumn fx:id="itphy1" prefWidth="89.0" text="Engineering &#10;Physics" />
+            <TableColumn fx:id="itdrawing1" prefWidth="108.0" text="Engineering&#10;Drawing" />
+            <TableColumn fx:id="ics" prefWidth="92.0" text="Introduction to&#10;Computer&#10;System" />
+        </columns>
+      </TableView>
+      <Button layoutX="333.0" layoutY="464.0" mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>

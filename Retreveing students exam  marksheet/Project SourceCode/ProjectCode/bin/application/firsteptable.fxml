@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="323.0" prefWidth="785.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="firsteptb" layoutX="28.0" layoutY="36.0" prefHeight="187.0" prefWidth="704.0">
+        <columns>
+          <TableColumn fx:id="roll6" prefWidth="75.0" text="Roll&#10;Number" />
+          <TableColumn fx:id="name6" prefWidth="75.0" text="Name" />
+            <TableColumn fx:id="myan2" prefWidth="75.0" text="Myanmar" />
+            <TableColumn fx:id="eng4" prefWidth="75.0" text="English" />
+            <TableColumn fx:id="math4" prefWidth="82.0" text="Engineering &#10;Mathematics" />
+            <TableColumn fx:id="chem2" prefWidth="78.0" text="Engineering &#10;Chemistry" />
+            <TableColumn fx:id="phy2" prefWidth="81.0" text="Engineering&#10;Physics" />
+            <TableColumn fx:id="drawing2" prefWidth="81.0" text="Basic&#10;Engineering &#10;Drawing" />
+            <TableColumn fx:id="principle" prefWidth="82.0" text="Principle of &#10;Electrical &#10;Engineering" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

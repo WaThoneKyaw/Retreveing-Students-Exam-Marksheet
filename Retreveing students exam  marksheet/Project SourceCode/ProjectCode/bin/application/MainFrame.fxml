@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="pane" prefHeight="407.0" prefWidth="477.0" style="-fx-background-color: silver;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Label fx:id="lbWelcome" layoutX="163.0" layoutY="50.0" text="WELCOME" textAlignment="CENTER" textFill="#0a0a0afa">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfUsername" layoutX="211.0" layoutY="140.0">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font></TextField>
+      <Button fx:id="loginButton" layoutX="193.0" layoutY="288.0" mnemonicParsing="false" onAction="#openLogin" text="Login" textFill="#2d2f2d">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="pfPassword" layoutX="210.0" layoutY="208.0">
+         <font>
+            <Font name="Times New Roman" size="15.0" />
+         </font>
+      </PasswordField>
+      <Label layoutX="86.0" layoutY="139.0" text="Usermame" textFill="#fcfcfc">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="90.0" layoutY="202.0" prefHeight="40.0" prefWidth="106.0" text="Password" textFill="#fcfcfc">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
